@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Delicious Handrawn'
+}
+/* Amsterdam */
+.amsterdam{
+  background-image: url(https://www.amsterdam.net/it/wp-content/uploads/sites/20/amsterdam-canali-ponti-hd.jpg);
+  height: 100vh;
+  background-size: cover;
+  border: 2px solid black;
+  position: relative;
+}
+
+.text-a{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Rome */
+.rome{
+  background-image: url(https://media.timeout.com/images/105211673/image.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  border: 2px solid black;
+  position: relative;
+}
+
+.text-b{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* NewYork */
+.newyork{
+  background-image: url(https://i.natgeofe.com/n/874df281-d3e0-489a-98c0-6b840023b828/newyork_NationalGeographic_2328428_4x3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid black;
+  position: relative;
+}
+
+.text-c{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+}
